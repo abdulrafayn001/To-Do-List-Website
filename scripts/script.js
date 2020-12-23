@@ -14,7 +14,10 @@ function addToList() {
 
         inputField.value = "";
 
-        //Create Delete Buuton
+        li.addEventListener("click", function() {
+                li.classList.toggle("done");
+            })
+            //Create Delete Buuton
         var delBtn = document.createElement("button");
         delBtn.appendChild(document.createTextNode("X"));
         li.appendChild(delBtn);

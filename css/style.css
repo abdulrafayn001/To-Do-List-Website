@@ -25,7 +25,7 @@ p {
 }
 
 #third {
-    color: #086972;
+    color: #F65058FF;
 }
 
 .delete {
@@ -87,5 +87,6 @@ li>button {
 }
 
 .done {
-    background-color: #edf798;
+    background: #fffe7a !important;
+    color: #101820FF;
 }

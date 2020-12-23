@@ -1,3 +1,91 @@
+body {
+    background: #a7ff83;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    color: #086972;
+    font-weight: 800;
+    font-size: 50px;
+    font-family: 'Cairo', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+#first {
+    color: #071a52;
+}
+
+#second {
+    color: #17b978;
+}
+
+#third {
+    color: #086972;
+}
+
 .delete {
     display: none;
+}
+
+#addBtn {
+    border: none;
+    padding: 6px 18px;
+    border-radius: 5px;
+    color: #a7ff83;
+    background-color: #086972;
+}
+
+#addBtn:hover {
+    background-color: #17b978;
+    color: #fffcca;
+}
+
+input {
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 5px;
+    min-width: 65%;
+    padding: 10px;
+    border: none;
+}
+
+ul {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 17%;
+    margin-right: 20%;
+    padding-left: 0px;
+}
+
+li {
+    list-style: none;
+    padding: 10px 20px;
+    color: #086972;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 2px solid #086972;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: #52d681;
+}
+
+li:hover {
+    background: #b5ff7d;
+}
+
+li>button {
+    font-weight: normal;
+    background: none;
+    border: none;
+    float: right;
+    color: #086972;
+    font-weight: 800;
+}
+
+.done {
+    background-color: #edf798;
 }

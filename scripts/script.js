@@ -22,3 +22,8 @@ function addToList() {
 }
 
 submitBtn.addEventListener("click", addToList);
+inputField.addEventListener("keypress", function(event) {
+    if (event.code == "Enter") {
+        addToList();
+    }
+})

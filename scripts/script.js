@@ -18,6 +18,9 @@ function addToList() {
         var delBtn = document.createElement("button");
         delBtn.appendChild(document.createTextNode("X"));
         li.appendChild(delBtn);
+        delBtn.addEventListener("click", function() {
+            li.classList.add("delete");
+        })
     }
 }
 
